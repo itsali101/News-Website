@@ -1,0 +1,730 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Tahoma;
+}
+h1
+{
+	
+font:bold 20px;
+}
+h2
+{
+	font: bold 14x;
+}
+body
+{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	
+}
+#big_wrapper
+{
+
+	max-width:1500px;
+	margin:20px auto;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+		
+}
+#top_header
+{
+border:2px solid #093;
+-webkit-box-flex:1;
+}
+#nav_header
+{
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-top-color:green;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+border-bottom-color:green;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+
+-webkit-box-flex:1;
+font-family:tahoma;
+font-size:60px;
+padding-top:0px;
+margin-top:0px;
+color:#093;
+}
+#artile h1
+{
+	background-color:#999;
+}
+#new_div
+{
+display:-webkit-box;
+-webkit-box-orient:horizontal;	
+}
+.image
+{
+	position:relative;
+	padding:20px;
+	margin:10px,0px;
+	width:700px;
+}
+.image:hover
+{
+	
+}
+.image h2
+{
+	position:absolute;
+	background-color:rgba(255,0,0,0.3);
+	background-size:auto;
+	padding:40px 0px 40px 0px;
+	top: 368px; 
+   left: px; 
+   width: 700px;
+   font-family:Tahoma;
+}
+#main_section
+{
+/*border:1px solid black*/;
+-webkit-box-flex:1;
+margin:20px;
+padding:20px;	
+}
+#the_general
+{
+-webkit-flex:1;
+width:700px;	
+}
+
+#my_article
+{
+	background-color:#;
+	width:700px;	
+}
+#my_article h1
+{
+	left:40px;
+	padding:20px;
+	padding-right:20px;
+	margin-left:20px;
+	border:1px solid white;
+	background-color:#093;
+	color:white;
+}
+#my_article  h1:hover
+{
+	color:#096;
+	background-color:#FFF;
+	border:1px solid #093;
+}
+#the_general:hover
+{
+	
+}
+#side_news
+{
+/*border:1px solid black*/;
+width:220px;
+margin:20px 0px;
+padding:30px;
+/*background:#F93;*/
+-webkit-box-flex:0;
+}
+#side_news ad22
+{
+	width:10px;
+}
+#side_news1
+{
+/*border:1px solid black*/;
+width:300px;
+margin:25px 0px;
+padding:30px;
+/*background:#F93;*/
+-webkit-box-flex:0;
+}
+#side_news1_div
+{
+	max-width:300px;
+	max-height:500px;
+	border:2px solid black;
+	background-color:#000;
+}
+#side_news1 img
+{
+	width:260px;
+}
+#kid2
+{
+	border:1px solid #CF0;
+}
+#the_footer
+{
+text-align:center;
+padding:20px;
+border-top:1px solid #093;
+background-color:#000;
+color:
+#F90;	
+}
+#footer_heading
+{
+	color:#F90;
+	
+}
+#footer_heading:hover
+{
+	color:#F00;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:#}
+
+th {
+    background-color: #F60;
+    color: white;
+}
+#articl2
+{
+	display:-webkit-box;
+-webkit-box-orient:horizontal;
+}
+#left_div
+{
+	border:0px solid black;
+-webkit-box-flex:1;
+margin:20px;
+padding:px;
+width:350px;
+float:left;
+
+	
+}
+#left_div img
+{
+	width:350px;
+	height:207px;
+	-webkit-box-orient:horizontal;
+	position:relative;
+
+}
+#right_div
+{
+	border:0px solid black;
+width:210px;
+margin:20px;
+padding-left:0px;
+/*background:#F93;*/
+-webkit-box-flex:0;;
+float:right;
+
+}
+#right_div img
+{
+	width:207px;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close1{
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #F90;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #F90;
+    color: white;
+}
+#third_article
+{
+	background-color:#000;
+	border:2px solid orange;
+	color:white;
+	height:700px;
+	}
+	#third_article h2
+	{
+		border:1px solid #033;
+		background-color:#F93;
+		border-bottom-left-radius:20px;
+		border-top-right-radius:20px;
+		color:white;
+		padding:5px;
+	}
+	#third_article h2:hover
+	{
+	color:#FF9;
+	}
+	#third_article #left_div
+	{
+		background-color:#666;
+		padding:0px;
+	}
+	#h3_hover:hover
+	{
+		color:orange;
+	}
+	#article2
+	{
+		height:760px;
+	}
+	 #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  #sports_div{ border:2px splid orange; width:600px; length:100px;}
+  ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	width:730px;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #F90;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+	background-color:#FFF;
+    padding: 6px 12px;
+	width:646px;
+	height:265px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.lef_side
+{
+padding:0px;	
+}
+input[type=text] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid #093;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    /*-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;*/
+}
+
+input[type=text]:focus {
+    /*width: 50%*/;}
+	
+	button.accordion {
+    background-color: #03F;
+    color: #000;
+	    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px #093;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+button.accordion1{
+    background-color: #C00;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+button.accordion1.active1, button.accordion1:hover {
+    background-color: #FFF;
+	color:#C00;
+	border:1px solid red;
+}
+
+div.panel1 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel1.show1 {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+button.accordion1{
+    background-color: #C00;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+button.accordion1.active1, button.accordion1:hover {
+    background-color: #FFF;
+	color:#C00;
+	border:1px solid red;
+}
+
+div.panel1 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel1.show1 {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+
+button.accordion2{
+    background-color: #F60;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+button.accordion2.active2, button.accordion2:hover {
+    background-color: #000;
+	color:#FFF;
+	border:1px solid black;
+}
+
+div.panel2 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel2.show2 {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+
+button.accordion3{
+    background-color: #FF3;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+button.accordion3.active3, button.accordion3:hover {
+    background-color: #9F3;
+	color:#FF3;
+	border:1px solid red;
+}
+
+div.panel3 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel3.show3 {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+
+button.accordion4{
+    background-color: #90C;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+button.accordion4.active4, button.accordion4:hover {
+    background-color: #F3C;
+	color:#C00;
+	border:1px solid red;
+}
+
+div.panel4{
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel4.show4 {
+    opacity: 1;
+    max-height: 500px;  
+}
+
+
+/*
+h1
+{
+	
+font:bold 20px;
+}
+h2
+{
+	font: bold 14x;
+}
+header, section ,footer, aside, nav, article, hgroup
+{
+	display:block;
+}
+body
+{
+	text-align:center;
+}
+#main_section /*720px,280left
+{
+	float:left;
+	width:700px;
+	margin:30px;
+}
+#big_wrapper
+{
+	border:1px groove #000000;
+	width:1000px;
+	margin:20px auto;
+	text-align:left;
+}
+#side_news
+{
+	float:left;
+	width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:#999;
+}
+#the_footer
+{
+clear:both;
+	text-align:center;
+	padding:20px;
+	border-top: 2px solid black;
+}
+article
+{background:#999;
+border: 1px solid black;
+padding:20px;
+margin-bottom:15px;
+}
+article footer
+{
+	text-align:right;
+}
+*/

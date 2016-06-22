@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Versatile</title>
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<body id="versatile">
+<div id="container_1">
+<header class="home_header" role="banner">
+<a href="homepage.html"><img src="Capture.PNG" id="logo"/></a>
+<a href="wwww.lenovo.com"><img src="index.png" id="lenovo"/></a>
+<label>
+    <select>
+        <option selected>Lenovo is dropping Y series for gamers!</option>
+        <option>Apple Vs FBI, things getting deaper...</option>
+        <option>Hands on new samsung galaxy s7</option>
+    </select>
+</label>
+</header>
+
+<nav id="top_menu">
+<ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+</nav>
+<section>
+<div class="box1">
+
+</div>
+</section>
+<aside>
+</aside>
+
+
+</div>
+</body>
+</html>

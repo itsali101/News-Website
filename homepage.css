@@ -1,0 +1,217 @@
+/* CSS Document */
+
+#div1
+{
+	float:none;
+	display:block;
+	border:1px #000000 solid;
+	width:1200px;
+}
+#table1
+{
+
+width:100px;
+}
+#container_1
+{
+	//border:1px solid black;
+	border-color:black;
+	margin:20px auto;
+	width:1200px;
+	height:1200px;
+	//display:inline-block;
+}
+#logo
+{
+	
+}
+#logo:hover
+{
+	background-color:#C09;
+}
+#lenovo
+{
+	height:70px;
+	width:auto;
+	margin:5px;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+	position:absolute;
+    text-align:center;
+   padding:5px;	
+   border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px; 	 
+}
+*
+{
+	font-family:Tahoma;
+}
+header, nav, section, aside, footer
+{
+	display:block;
+}
+body
+{
+	text-align:center;
+}
+#logo
+{
+float:left;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border:groove white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#top_menu
+{
+	padding-top:90px;
+	
+	list-style:none;
+}
+#lenovo
+{
+	height:70px auto;
+	width:auto;
+	float:left;
+	padding-top:20px;
+	margin-top:15px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+select {
+    padding:5px;
+	float:left;
+	height:83px;
+	margin-top:100px;
+	width:800px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:10px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:0px}
+}
+
+label {
+	float:left;
+	}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:px; top:18px;
+	margin-right:50px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+	float:left;
+	height:70px;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
